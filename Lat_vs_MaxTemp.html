@@ -18,7 +18,7 @@
  <!-- Navigation -->
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude and Weather</a>
+            <a class="navbar-brand" style="text-decoration: underline;" href="index.html">Latitude and Weather</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" 
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
             aria-expanded="false" aria-label="Toggle navigation">
@@ -59,14 +59,22 @@
                     h3{
                       font-size: 60px;
                       font-weight: bolder;
+                      margin-left: -150px;
                     }
+                    
                   </style>
                   <h3 class="title">Max Temperature</h3>
-                  <img src="Visualizations/Latitude_vs_Max_Temp.png" alt="Max Temperature Chart">
+                  <img style="margin-left: -150px;" src="Visualizations/Latitude_vs_Max_Temp.png" alt="Max Temperature Chart">
                   <br>
                   <br>
                   <br>
-                  <p>As we approach the equator (a latitude of 0 degrees) the weather becomes significantly warmer.
+                  <style>
+                    p{
+                      margin-left: -150px;
+                      margin-right: 100px;
+                    }
+                  </style>
+                  <p>As we approach the equator (a latitude of zero degrees) the weather becomes significantly warmer.
                         This fact is only true as we get closer to the equator since the temperatures are not mirror images of each other on either side of the equator.  Due to the tilt of the earth, when the Northern Hemisphere es experiencing summer, the Southern Hemisphere is experiencing winter.  The same holds true for the opposite.</p>
                 </div>
          </div>
@@ -76,18 +84,19 @@
                   <style>
                     h2{
                       margin-top: 70px;
+                      margin-left: -100px;
                       font-style: italic;
                     }
                   </style>
                   <h2>Visualizations</h2>
                   <div class="container">
                         <div class="row" >
-                          <div class="col-6">
+                          <div class="col-6" style="margin-left: -100px;">
                             <a href="Lat_vs_MaxTemp.html">
                               <img class="panel" src="Visualizations/Latitude_vs_Max_Temp.png" width="350px" height="310px" alt="Max Temp Chart">
                             </a>
                           </div>
-                          <div class="col-6">
+                          <div class="col-3" style="margin-left: -150px;">
                             <a href="Lat_vs_Humidity.html">
                               <img class="panel" src="Visualizations/Latitude_vs_Humidity.png" width="350px" height="310px" alt="Humidity Chart">
                             </a>
@@ -95,12 +104,12 @@
                         </div>
             
                         <div class="row" >
-                          <div class="col-6">
+                          <div class="col-6" style="margin-left: -100px;">
                             <a href="Lat_vs_Cloudiness.html">
                               <img class="panel" src="Visualizations/Latitude_vs_Cloudiness.png" width="350px" height="310px" alt="Cloudiness Chart">
                             </a>
                           </div>
-                          <div class="col-6">
+                          <div class="col-3" style="margin-left: -150px;">
                             <a href="Lat_vs_WindSpeed.html">
                               <img class="panel" src="Visualizations/Latitude_vs_Wind_Speed.png" width="350px" height="310px" alt="Wind Speed Chart">
                             </a>
