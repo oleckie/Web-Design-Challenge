@@ -12,14 +12,7 @@ header {
   background: #333;
 }
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
+
 
 /* Selecting elements by class */
 .container {
